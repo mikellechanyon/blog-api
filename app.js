@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 app.use('/api', articleRoutes);
 const swaggerOptions = {
     customCss: '.swagger-ui .topbar { background-color: #2c3e50; } .swagger-ui .btn.execute { background-color: #e67e22; color: white; }',
-    customSiteTitle: "Providence's Blog API Docs"
+    customSiteTitle: "chanyon's Blog API Docs"
 };
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, swaggerOptions));
